@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <link rel="stylesheet" type="text/css" href="MainStyle1.css" />
+</head>
+<body>
+    <ul>
+        <li><a href="http://cis-iis2.temple.edu/Spring2021/CIS3344_tui04317/index.html">Lab 1</a></li>
+        <li><a href="#LandingPage">LandingPage</a></li>
+        <li><a href="#Info">Info</a></li>
+        <li><a href="#Form">Form</a></li>
+        <li><a href="#Gallery">Photo Gallery</a></li>
+    </ul>
+
+    <div class="header">
+        <h1>Welcome to my Apex Legends themed website!</h1>
+    </div>
+
+    <!--Apex Banner Image-->
+    <div>
+        <img class="apexlogoR" src="images1/apexlogoR.jpg" alt="Apex Logo" height="500">
+    </div>
+
+    <div id="LandingPage">
+        <div id="con">
+            <div class="home">
+                <p style="text-decoration: underline"> Objective</p>
+                <p>This website is dedicated to the popular Battle Royale known as Apex Legends. </p>
+                <p>
+                    There are 4 sections on this webpage. Before the sections start there is a link to my previous lab. The first section is the landing page,
+                    the second is the info section, third is a form where the user will be asked questions, and lastly there is a photo gallery.
+                </p>
+                <p>This website was designed with the purpose of being fully responsive.</p>
+            </div>
+            <div class="home">
+                <p style="text-decoration: underline"> What is Apex Legends?</p>
+                <p>
+                    Apex legends is a battle royale game with either a 20 three-person squads or 30 two-person duos.
+                    These duos/trios land on an island and search for weapons/supplies before eliminating other players
+                    on the island.
+                </p>
+                <p style="text-decoration: underline"> What Makes Apex Legends Unique to the Battle Royale Genre?</p>
+                <p>
+                    Unlike popular Battle Royales such as Fortnite or PUBG, Apex Legends utilizes a unique movement system that
+                    resembles parkour. Therefore, the player is able to move around the buildings/terrain in a very unique way.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Info">
+        <h1 style="text-decoration:underline;">Apex Legends Characters</h1>
+
+        <div id="apexChar">
+            <h1>BloodHound</h1>
+            <img src="images1/bloodhound.png" style="width: 40%;" />
+            <div class="apexContent">
+                <p>
+                    BloodHound is one of the most iconic characters within Apex Legends. This character is known as a Technological Tracker because of
+                    their ability to see the footsteps and markings of enemies near them. BloodHound utilizes a form of scanning technology to spot enemies
+                    at a distance.
+
+                    "I am the hunter the Gods have sent."
+                </p>
+            </div>
+        </div>
+
+        <div id="apexChar">
+            <h1>Gibraltar</h1>
+            <img src="images1/gibby.png" style="width: 40%;" />
+            <div class="apexContent">
+                Gibraltar or popularily known as Gibby is one of the main defensive/tank characters within the Apex Legends universe. This character
+                is known for his bubble which is a shield that he can throw near him. His ultimate is also one of the most lethal ultimates within the
+                game as he will throw down a gernade looking object which signals an airstrike to rain down on his enemies.
+
+                "Try to move me; it'll be fun."
+            </div>
+        </div>
+        <div id="apexChar">
+            <h1>Bangalore</h1>
+            <img src="images1/bangalore.png" style="width: 40%;" />
+            <div class="apexContent">
+                Bangalore is known as one of the best skirmishing and dueling characters within the game. She excels at disrupting enemies with her smoke-screen
+                and her high mobility through the use of her passive which grants her bonus movement speed when in combat. She pairs quite well with Bloodhound through
+                their smoke-screen and scan tactic. Her ultimate is similar to Gibraltar's, however it is a weaker version.
+
+                "Name the weapon--I'll still beat you."
+            </div>
+        </div>
+        <div id="apexChar">
+            <h1>Octane</h1>
+            <img src="images1/octane.png" style="width: 40%;" />
+            <div class="apexContent">
+                Octane is widely recognized as one of the fastest characters in Apex Legends. His title is the High-Speed Daredevil and he
+                lives up to his name. He uses a stim injection to move 30% faster for six seconds, while his ultimate is throwing a launchpad
+                infront of him for his teammates to use. This character is incredibly mobile and can reposition himself in fights extremely
+                quickly.
+
+                "Whoa... what a rush!"
+            </div>
+        </div>
+    </div>
+
+
+    <form id="Form" method="post" action="http://cis-iis2.temple.edu/users/pascucci/cis3342/FormProcessor.aspx?mail=tui04317@temple.edu%22%3E">
+        <h1 style="text-decoration: underline;">Here is a form for you to fill out!</h1>
+
+        Full Name: <br />
+        <input type="text" name="fullname" required /><br />
+        <br />
+        Age: <br />
+        <input type="text" name="age" required /><br />
+        <br />
+        What Apex Legends characters do you like to play?<br />
+        <input type="checkbox" name="character" value="bloodhound" />Blood Hound <br />
+        <input type="checkbox" name="character" value="wraith" />Wraith <br />
+        <input type="checkbox" name="character" value="octane" />Octane <br />
+        <input type="checkbox" name="character" value="horizon" />Horizon <br />
+        <input type="checkbox" name="character" value="gibraltar" />Gibraltar <br />
+        <input type="checkbox" name="character" value="crypto" />Crypto <br />
+        <input type="checkbox" name="character" value="loba" />Loba<br />
+        <input type="checkbox" name="character" value="bangalore" />Bangalore <br />
+        <input type="checkbox" name="character" value="revenant" />Revenant <br />
+        <input type="checkbox" name="character" value="wattson" />Wattson <br />
+        <input type="checkbox" name="character" value="fuse" />Fuse <br />
+        <input type="checkbox" name="character" value="lifeline" />LifeLine <br />
+        <input type="checkbox" name="character" value="mirage" />Mirage <br />
+        <input type="checkbox" name="character" value="caustic" />Caustic <br />
+        <input type="checkbox" name="character" value="pathfinder" />Pathfinder <br />
+        <input type="checkbox" name="character" value="rampart" />Rampart <br />
+        <br />
+        Do you play ranked? <br />
+        <input type="radio" name="question" value="yes">Yes<br />
+        <input type="radio" name="question" value="no">No<br />
+        <br />
+        What rank are you in Apex Legends?<br />
+        <input type="radio" name="rank" value="unranked">Unranked<br />
+        <input type="radio" name="rank" value="bronze">Bronze<br />
+        <input type="radio" name="rank" value="silver">Silver<br />
+        <input type="radio" name="rank" value="gold">Gold<br />
+        <input type="radio" name="rank" value="platinum">Platinum<br />
+        <input type="radio" name="rank" value="diamond">Diamond<br />
+        <input type="radio" name="rank" value="master">Master<br />
+        <input type="radio" name="rank" value="apexpredator">Apex Predator<br />
+        <br />
+        How much do you like each map? <br />
+        Kings Canyon: <input type="range" name="kingscanyon" min="0" max="10"><br />
+        Worlds Edge: <input type="range" name="worldsedge" min="0" max="10"><br />
+        Olympus: <input type="range" name="olympus" min="0" max="10"><br />
+        <br />
+        Who is your favorite Apex Legends streamer?<br />
+        <input type="text" name="streamer" /><br />
+        <input type="button" name="streamer" value="None" /><br />
+        <br />
+        How long have you played Apex Legends for?<br />
+        <input type="radio" name="time" value="neverplayed">Never Played<br />
+        <input type="radio" name="time" value="juststarted">Just Started<br />
+        <input type="radio" name="time" value="3months">3 months<br />
+        <input type="radio" name="time" value="6months">6 months<br />
+        <input type="radio" name="time" value="9months">9 months<br />
+        <input type="radio" name="time" value="1year">1 year<br />
+        <input type="radio" name="time" value="3years">3 years<br />
+        <input type="radio" name="time" value="6year">6 years +<br />
+        <br />
+        What is your favorite gun in Apex Legends?<br />
+        <input type="text" name="gun" /><br />
+        <input type="button" name="gun" value="None" /><br />
+        <br />
+        Do you like to play any other games?<br />
+        <input type="radio" name="othergames" value="yes">Yes<br />
+        <input type="radio" name="othergames" value="no">No<br />
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <div id="Gallery">
+        <h1 style="text-decoration:underline; text-align: center;">Photo Gallery</h1>
+        <div id="galleryimg">
+            <img src="images1/worldsedge.jpg" style="width: 500px; height: 300px;" />
+            <div class="gallerycont">
+                This is one of the first maps in Apex Legends. It is located on the planet Solace and is 2nd most popular among the playerbase.
+            </div>
+        </div>
+        <div id="galleryimg">
+            <img src="images1/kingscanyon.jpg" style="width: 500px; height: 300px;" />
+            <div class="gallerycont">
+                The second map introduced to Apex Legends. It is located on the planet Talos and is the most liked map.
+            </div>
+        </div>
+        <div id="galleryimg">
+            <img src="images1/olympus.jpg" style="width: 500px; height: 300px;" />
+            <div class="gallerycont">
+                This is the latest map in Apex Legends. It is located on the planet Psamathe and is not well liked by the players.
+            </div>
+        </div>
+        <div id="galleryimg">
+            <img src="images1/wraith.png" style="width: 500px; height: 300px;" />
+            <div class="gallerycont">
+                One of the most popular characters in the game, Wraith is a duelist who is able to reposition herself in combat. Her ability to phase makes
+                her one of the most diverse and mobile characters.
+            </div>
+        </div>
+        <div id="galleryimg">
+            <img src="images1/loba.png" style="width: 500px; height: 300px;" />
+            <div class="gallerycont">
+                Loba is known as the High Society Thief and has a portable device that teleports nearby loot to your inventory. This ability which
+                is known as the Black Market is one of the best abilities in the game.
+            </div>
+        </div>
+        <div id="galleryimg">
+            <img src="images1/respawnent.png" style="width: 500px; height: 300px;" />
+            <div class="gallerycont">
+                This is the company which developed the game. They are also known for creating Titanfall which was a very popular game in 2014.
+                As of recent they've worked on Star Wars: Fallen Order and Star Wars Battlefront II.
+            </div>
+        </div>
+    </div>
+
+        <footer>
+            Created By: Sidhant Tewari CIS 3344
+        </footer>
+
+</body>
+
+</html>
