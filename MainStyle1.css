@@ -1,0 +1,133 @@
+﻿body {
+    background-color: #e5e1d8;
+    font-size: 16px;
+    color: darkred;
+    font-family: Tahoma, sans-serif;
+    margin: 0 auto;
+}
+
+li a {
+    color: darkred;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+}
+
+    li a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+ul{
+    text-align: center;
+}
+
+.apexlogoR{
+   width: 50%
+}
+
+
+.home {
+    display:block;
+    color: darkred;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    border-color: darkred;
+    text-align: left;
+}
+#con{
+    margin: 0 auto;
+
+}
+.header{
+    text-align: center;
+    color:darkred;
+    text-decoration: underline;
+}
+
+#apexChar {
+    display: block;
+    padding: 10px;
+    margin: 75px;
+    height: 460px;
+    width: 420px;
+    background-color: #e5e1d8;
+    font-size: 14px;
+    text-align: center;
+    color: darkred;
+    float: left;
+    border: 2px solid;
+}
+.apexContent {
+    display: block;
+    margin: 10px;
+    color:darkred;
+}
+#Info{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 1%;
+    font-size: 12px;
+    text-align: center;
+    color: darkred;
+    overflow: auto;
+    border: 2px solid;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: darkred;
+}
+
+@media only screen and ( min-width: 768px) {
+    #Form{
+        margin-left:31%;
+    }
+    #gallery{
+        margin:20px;
+    }
+}
+
+#Form {
+    display: table;
+    border: solid 2px;
+    padding: 8px;
+}
+#gallery{
+    display: block;
+    border: 2px solid;
+    width: 98%;
+    height: 850px;
+    overflow: auto;
+}
+#galleryimg{
+    display: block;
+    float: left;
+    width: 550px;
+    margin: 10px;
+}
+.gallerycont{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+footer{
+    position: relative;
+    margin-top: -180px;
+    height: 180px;
+    clear: both;
+    color: darkred;
+    text-align: center;
+
+}
